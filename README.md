@@ -22,7 +22,7 @@
 </div>
 
 > [!IMPORTANT]
-> Get **Adversarial REA** from [Cultistsid/adversarial-rea](https://github.com/Cultistsid/adversarial-rea).
+> Get **Adversarial REA** from [Cultistsid/adversarial-rea-mcp](https://github.com/Cultistsid/adversarial-rea-mcp).
 > Native telemetry extraction runs locally. Imports, strings, call sites, gadget candidates, and generated review candidates are **not verified vulnerabilities**. Native source-to-sink flow and observed native triggers are not produced by this release; chains remain blocked without them. Separately, synthetic `.flow.json` fixtures can be correlated and replayed entirely in memory. Fixture observations cannot validate a native binary.
 
 <div align="center">
@@ -48,7 +48,7 @@ Use it to narrow manual review: identify suspicious imports, inspect observed ca
 Adversarial REA requires **Node.js `>= 22.0.0`**, `npm`, and standard host binary utilities (`objdump`, `nm`, `strings`, `file`; plus `otool` on macOS).
 
 ```bash
-git clone https://github.com/Cultistsid/adversarial-rea.git
+git clone https://github.com/Cultistsid/adversarial-rea-mcp.git
 cd adversarial-rea
 npm install
 ```
@@ -348,9 +348,9 @@ npm run test:all           # Full suite
 
 <a href="https://www.star-history.com/?repos=Cultistsid%2Fadversarial-rea&amp;type=date">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=Cultistsid/adversarial-rea&amp;type=date&amp;theme=dark&amp;legend=top-left" />
-    <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=Cultistsid/adversarial-rea&amp;type=date" />
-    <img alt="Adversarial REA GitHub star history" src="https://api.star-history.com/chart?repos=Cultistsid/adversarial-rea&amp;type=date" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=Cultistsid/adversarial-rea-mcp&amp;type=date&amp;theme=dark&amp;legend=top-left" />
+    <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=Cultistsid/adversarial-rea-mcp&amp;type=date" />
+    <img alt="Adversarial REA GitHub star history" src="https://api.star-history.com/chart?repos=Cultistsid/adversarial-rea-mcp&amp;type=date" />
   </picture>
 </a>
 
